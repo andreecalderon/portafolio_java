@@ -42,9 +42,7 @@ public class mate {
                 if (num2 != 0) {
                     resultado = num1 / num2;
                     operacion = "División";
-                } else {
-                    System.out.println("ERROR!!! No se puede dividir por cero");
-                    return;
+
                 }
                 break;
         }
@@ -52,6 +50,5 @@ public class mate {
         // Mostrar el resultado
         System.out.println("El resultado de la " + operacion + " es: " + resultado);
 
-        scanner.close();
     }
 }

@@ -1,7 +1,7 @@
 package cambioDeGrados;
 import java.util.Scanner;
 public class grados {
-    public static void main(){
+    public static void temperatura(){
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar la temperatura en Fahrenheit

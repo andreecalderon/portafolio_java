@@ -15,7 +15,7 @@ public class Main {
         // LISTA DE OPCIONES
         String[] listaDeOpciones = {
                 "Calculadora", "IMC",
-                "Farenheit / Celsius", "Calcular edad",
+                "Farenheit / Celsius", "Conversor",
                 "Grados", "ListaDecompras",
                 "Opción_7", "Opción_8",
                 "Opción_9", "Salir"
@@ -41,7 +41,7 @@ public class Main {
                     IMC.programaIMC();
                     break;
                 case 3:
-                    grados.main();
+
                     break;
 
                 case 4:
@@ -49,9 +49,9 @@ public class Main {
                     break;
 
                 case 5:
-                    break;
-
-                case 6:
+                    grados.temperatura();
+                     break;
+                    case 6:
                     ListaDeCompras.programa();
                     break;
 

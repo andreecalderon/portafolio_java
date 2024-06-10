@@ -5,7 +5,7 @@ import Matematicas.mate;
 import opciones.ListaOpciones;
 import cambioDeGrados.grados;
 import Lista.ListaDeCompras;
-
+import ConversorDeMoneda.conversorMoneda;
 import java.util.Scanner;
 
 public class Main {
@@ -17,7 +17,7 @@ public class Main {
                 "Calculadora", "IMC",
                 "Farenheit / Celsius", "Conversor",
                 "Grados", "ListaDecompras",
-                "Opción_7", "Opción_8",
+                "conversor de moneda", "Opción_8",
                 "Opción_9", "Salir"
         };
 
@@ -54,6 +54,8 @@ public class Main {
                     case 6:
                     ListaDeCompras.programa();
                     break;
+                case 7:
+                    conversorMoneda.conversor();
 
                     case 10:
                     progra = false;

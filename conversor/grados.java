@@ -1,4 +1,4 @@
-package cambioDeGrados;
+package conversor;
 import java.util.Scanner;
 public class grados {
     public static void temperatura(){

@@ -1,11 +1,11 @@
-import conversor_unidades.convertir_unidades;
+import conversor.convertir_unidades;
 import programas.IMC;
 import interfaz_grafica.Banner;
-import Matematicas.mate;
-import opciones.ListaOpciones;
-import cambioDeGrados.grados;
+import calculadora.mate;
+import mis_metodos.ListaOpciones;
+import conversor.grados;
 import Lista.ListaDeCompras;
-import ConversorDeMoneda.conversorMoneda;
+import conversor.conversorMoneda;
 import java.util.Scanner;
 
 public class Main {

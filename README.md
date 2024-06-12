@@ -10,7 +10,7 @@
 - **Descripción:** Punto de entrada principal del portafolio, puede utilizarse para navegar entre los diferentes programas.
 
 ### Conversor 
-- **Archivo:** `conversor_unidades`
+- **Archivo:** `conversor`
 - **Descripción:** un programa que poermite la conversión entre diferentes unidades de medida.
 
 ### Grados
@@ -25,7 +25,7 @@
 - **Archivo:**  `ListaOpciones.java`
 - **Descripción:** este programa sirve para mostrar las opciones disponibles por consola.
 
-### Matematicas
+### calculadora
 - **Archivo:** `mate.java`
 - **Descripción:** este programa sirve para poder hacer operaciones matematicas como multiplicación,división,suma y resta.
 

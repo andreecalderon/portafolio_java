@@ -1,4 +1,4 @@
-package conversor_unidades;
+package conversor;
 import java.util.Scanner;
 
 public class convertir_unidades {

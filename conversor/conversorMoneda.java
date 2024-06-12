@@ -1,7 +1,4 @@
-package ConversorDeMoneda;
-import opciones.ListaOpciones;
-import java.util.Scanner;
-
+package conversor;
 import java.util.Scanner;
 
 public class conversorMoneda{

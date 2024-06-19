@@ -1,4 +1,5 @@
 import conversor.convertir_unidades;
+import libros.Biblioteca;
 import programas.IMC;
 import interfaz_grafica.Banner;
 import calculadora.mate;
@@ -14,10 +15,10 @@ public class Main {
 
         // LISTA DE OPCIONES
         String[] listaDeOpciones = {
-                "Calculadora", "IMC",
+                "Calculadora", "programas",
                 "Farenheit / Celsius", "Conversor",
                 "Grados", "ListaDecompras",
-                "conversor de moneda", "Opción_8",
+                "conversor de moneda", "Biblioteca",
                 "Opción_9", "Salir"
         };
 
@@ -56,7 +57,10 @@ public class Main {
                     break;
                 case 7:
                     conversorMoneda.conversor();
-
+                    break;
+                case 8:
+                    Biblioteca.programa();
+                    break;
                     case 10:
                     progra = false;
                     break;

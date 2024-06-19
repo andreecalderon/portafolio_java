@@ -18,8 +18,8 @@
 - **Descripción** este programa sirve para poder hacer conversiones de grados farenheit a celsius.
 
 ### Programas
-- **Archivo:** `IMC.java`
-- **Descripción:** este programa sirve para poder calcular el IMC de una persona.
+- **Archivo:** `programas.java`
+- **Descripción:** este programa sirve para poder calcular el programas de una persona.
 
 ### Opciones 
 - **Archivo:**  `ListaOpciones.java`

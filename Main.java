@@ -1,3 +1,4 @@
+import colegio.Escuela;
 import conversor.convertir_unidades;
 import libros.Biblioteca;
 import programas.IMC;
@@ -19,7 +20,7 @@ public class Main {
                 "Farenheit / Celsius", "Conversor",
                 "Grados", "ListaDecompras",
                 "conversor de moneda", "Biblioteca",
-                "Opción_9", "Salir"
+                "Colegio", "Salir"
         };
 
         boolean progra = true;
@@ -60,6 +61,9 @@ public class Main {
                     break;
                 case 8:
                     Biblioteca.programa();
+                    break;
+                case 9:
+                    Escuela.main();
                     break;
                     case 10:
                     progra = false;
